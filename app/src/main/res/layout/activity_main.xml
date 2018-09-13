@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+
+
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/od"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/txt_code"
+                android:layout_width="56dp"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_clear"
+                android:text="clear"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_search"
+                android:text="search"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+   <ListView
+
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/mobile_view">
+
+   </ListView>
+
+</LinearLayout>
